@@ -2,11 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background:linear-gradient(to right,  #84ecec,  #2b61f5)
+    background:linear-gradient(135deg,  #e3ffff,  #2b61f5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
 }
 
-.title{
+.title h1{
 text-align: center;
+}
+.title img{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    border-radius: 50px;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
 }
 
 #login-container, #attendance-container {
@@ -47,6 +59,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 th, td {
@@ -62,4 +75,11 @@ th {
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+
+#logout-btn{
+    background-color: rgb(252, 80, 0);
+}
+#logout-btn:hover {
+    background-color: #f20000;
 }
