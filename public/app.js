@@ -35,7 +35,7 @@ function handleSessionExpiration() {
   let sessionCheckInterval;
 
 function startSessionCheck() {
-  sessionCheckInterval = setInterval(checkSession, 120000); // Check every 30 seconds
+  sessionCheckInterval = setInterval(checkSession, 120000); // Check every 60 seconds
 }
 
 function stopSessionCheck() {
